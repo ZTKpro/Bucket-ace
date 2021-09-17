@@ -1,13 +1,13 @@
 import * as React from "react";
 
-import ProductStyles from "./ProductStyles.scss";
+import "./Search.scss";
 
-const Product = () => {
+const Search = () => {
   return (
     <section>
-      <h1>Product</h1>
+      <h1>Search</h1>
     </section>
   );
 };
 
-export default Product;
+export default Search;

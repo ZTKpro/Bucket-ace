@@ -1,11 +1,19 @@
 import * as React from "react";
 
-import ProductsWrapperStyles from "./ProductsWrapperStyles.scss";
+import "./ProductsWrapper.scss";
+
+import ProductGrid from "../ProductGrid/ProductGrid";
+import Search from "../Search/Search";
 
 const ProductsWrapper = () => {
   return (
-    <section>
-      <h1>ProductsWrapper</h1>
+    <section className="products-wrapper">
+      <div className="products-wrapper__header">
+        <Search />
+      </div>
+      <div className="products-wrapper__main">
+        <ProductGrid />
+      </div>
     </section>
   );
 };

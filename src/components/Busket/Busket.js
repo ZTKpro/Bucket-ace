@@ -1,10 +1,10 @@
 import * as React from "react";
 
-import BusketStyle from "./BusketStyle.scss";
+import "./Busket.scss";
 
 const Busket = () => {
   return (
-    <section>
+    <section className="busket">
       <h1>Busket</h1>
     </section>
   );

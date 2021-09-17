@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import ProductStyle from "./ProductStyle.scss";
+import "./Product.scss";
 
 const Product = () => {
   return (
@@ -10,4 +10,4 @@ const Product = () => {
   );
 };
 
-export default ProductStyle;
+export default Product;

@@ -7,11 +7,9 @@ import Busket from "../components/Busket/Busket";
 
 const IndexPage = () => {
   return (
-    <main>
-      <section>
-        <ProductsWrapper />
-        <Busket />
-      </section>
+    <main className="index">
+      <ProductsWrapper />
+      <Busket />
     </main>
   );
 };

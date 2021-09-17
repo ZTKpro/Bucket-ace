@@ -2,11 +2,15 @@ import * as React from "react";
 
 import "../styles/index.scss";
 
+import ProductsWrapper from "../components/ProductsWrapper/ProductsWrapper";
+import Busket from "../components/Busket/Busket";
+
 const IndexPage = () => {
   return (
     <main>
       <section>
-        <h1>Sklep sobre</h1>
+        <ProductsWrapper />
+        <Busket />
       </section>
     </main>
   );

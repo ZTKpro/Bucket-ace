@@ -2,10 +2,15 @@ import * as React from "react";
 
 import "./Search.scss";
 
+import SearchIcon from "../../images/search.png";
+
 const Search = () => {
   return (
-    <section>
-      <h1>Search</h1>
+    <section className="search">
+      <div className="search__input">
+        <input placeholder="Wyszukaj product"></input>
+        <img src={SearchIcon} className="search__input-icon"></img>
+      </div>
     </section>
   );
 };
